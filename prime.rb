@@ -11,6 +11,6 @@ def prime?(n)
 
   (2..n-1).each {|int| return false if n % int == 0}
 
-else return true
+elsif return true
 
 end
